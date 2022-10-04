@@ -1,0 +1,14 @@
+name: "ChatColor"
+version: "1.0"
+main: "vb.$chatcolor.PluginMain"
+api-version: 1.13
+authors: [Wendellmeset, IAmAppley]
+description: "Lets you change color of your chat messages!!!!"
+commands:
+  chatcolor:
+    aliases: [setchatcolor, colorchat, changechatcolor, chatcolorgui, chatcolorcommand, chatcolorguicmd, chatcolorcmd, chatcolorguicommand]
+    description: "Lets you change the color of chat messages you send!"
+    permission: "chatcolorplugin.chatcolorcmd"
+    permission-message: "&cNo Perms!"
+    usage: "/chatcolor"
+permissions:
